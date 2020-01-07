@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+nav {
+  margin-top: 40px;
+  padding: 0 1 rem;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+ul li {
+  display: inline;
+}
+
+.headerlogo {
+  float: left;
+  margin-right: 10px;
+}
+
+.headerlogo > img {
+  height: 60px;
+  width: 60px;
+}
+
+.companydetails {
+  float: left;
+  width: 0px;
+  padding: 0%;
+}
+.textlabel {
+  text-align: left;
+  font-size: 12px;
+  margin: 0px;
+  display: block;
+  width: 200px;
+  padding: 0px;
+  float: left;
+}
+.textinput {
+  text-align: left;
+  font-size: 12px;
+  margin: 0px;
+  display: block;
+  width: 200px;
+  padding: 0px;
+  float: left;
+}
+.textlabel > .textinput {
+  width: 200px;
+  height: 10px;
+  padding: 0px;
+  border: 1px solid #888888;
+}
+.textlabel > .submitbutton {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #888888;
+}
+
+fieldset {
+  padding: 0px;
+  border: none;
+}
+.table {
+  font-size: 12px;
+  padding: 0px;
+  border: none;
+}
+.project-tab {
+  padding: 10%;
+  margin-top: -8%;
+}
+.project-tab #tabs {
+  background: #007b5e;
+  color: #eee;
+}
+.project-tab #tabs h6.section-title {
+  color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #0062cc;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 3px solid !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.project-tab .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  color: #0062cc;
+  font-size: 16px;
+  font-weight: 600;
+}
+.project-tab .nav-link:hover {
+  border: none;
+}
+.project-tab thead {
+  background: #f3f3f3;
+  color: #333;
+}
+.project-tab a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.col-md-9 {
+  float: left;
+  width: 0px;
+  padding: 5%;
+  margin-left: 10px;
+}
+
+.bar {
+  float: left;
+  padding: 0%;
+  margin-left: 0px;
+  width: auto;
+}
+
+a.page-link {
+  cursor: pointer;
+}
+
+.form-elegant {
+  float: left;
+  width: 0px;
+  padding: 0%;
+}
+.container {
+  border: black;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 2px;
+  display: block;
+  width: 900px;
+  padding: 2px 0;
+  float: left;
+}
+
+.card {
+  border: black;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: block;
+  width: 800px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  float: left;
+}
+
+.card-body{
+  border: black;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 12px;
+  display: block;
+  width: 500px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  float: left;
+}
+
+/* .btn-secondary is added for testing purpose. it is in the Random.js */
+
+.btn-secondary {
+  margin-left: 1740px;
+}
+
+.btn-primary {
+  margin-right: 5px;
+}
+
+.justify-content-left {
+  margin-top: -2.5px;
+  margin-left: -3.5px;
+  height: 30px;
+  font-size: 14px;
+  background: rgb(248, 147, 0);
+}
+.box {
+  margin-top: -7px;
+ padding-top: 0px;
+ padding-left: 0px; 
+}
+
+.form-group {
+ font-size: 12px;
+}
+
+.justify-content-md-center {
+  margin-top: -2px;
+  margin-bottom: -15px;
+}
+
+.form-control{
+  margin-top: -11px;
+  margin-bottom: -2px;
+}
+
+
+
+/* .searchbox {
+  position: absolute;
+  float: right;
+  padding: 5px;
+  width: 250px;
+  text-align: left;
+  right: 2%;
+  top: 2%;
+} */
